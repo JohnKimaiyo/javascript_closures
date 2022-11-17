@@ -1,13 +1,8 @@
-var a = 10;
-function outer(){
-    var b = 20;
+function myfunction(){
 
-    function inner(){
-        console.log(a);
-        console.log(b);
-    }
-    inner();
+    a = 10;
+
+    console.log(a*a);
 }
 
-
-outer();
+myfunction();
