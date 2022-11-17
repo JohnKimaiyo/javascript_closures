@@ -1,14 +1,5 @@
-var a = 10;
-
-function outer(){
-var b = 20;
-
-function inner(){
-    console.log(a);
-    console.log(b);
+function myfunction(){
+    let a = 10;
+    console.log(a*a*a);
 }
-inner();
-}
-
-outer();
-
+myfunction();
